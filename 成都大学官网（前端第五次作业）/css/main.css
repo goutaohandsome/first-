@@ -1,0 +1,821 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.page-container {
+    color: #fff;
+    height: 142px;
+    width:100%;
+    background-color: #90000a;
+}
+.header {
+    height: 142px;
+    width: 1295px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 400px;
+    height: 85px;
+    margin-top: 30px;
+}
+.first {
+    width: 220px;
+    margin-right: 90px;
+    margin-top: 38px;
+    color: #fff;
+}
+.first-1 {
+    position: absolute;
+    top: 26px;
+    right: 301px;
+    display: block;
+    width: 188px;
+}
+.second {
+    position: absolute;
+    top: 60px;
+    right: 413px;
+}
+form {
+    display: inline;
+}
+.ipt {
+    background-color: #90000a;
+}
+.search {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 62px;
+    right: 385px;
+}
+/*第二部分*/
+.nav-box {
+    width: 1225px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.nav-box>ul>li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 999;
+}
+
+.nav a {
+    color: #353434;
+    font-size: 15px;
+    display: block;
+    padding: 0px 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-box>ul>li:hover {
+    background: #90000a;
+}
+
+.nav-box>ul>li:hover .children {
+    display: block
+}
+
+.children {
+    display: none;
+    background: #90000a;
+    position: absolute;
+    top: 40px;
+    width: 180px;
+    z-index: 2;
+    padding: 5px 0px;
+}
+
+.children a {
+    line-height: 38px;
+    font-size: 14px;
+    color: #FFF;
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+}
+
+.children li:hover {
+    background: #55040a
+}
+/*第三部分*/
+.third {
+    position: relative;
+    left: 273px;
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+}
+.third-img {
+    position: absolute;
+    width: 600%;
+    left: 96px;
+    top: 0;
+    transform: translate(0,0);
+    animation: loop 10s linear infinite;
+}
+.img {
+    position: relative;
+    left: -106px;
+    width: 1423px;
+    height: 517px;
+}
+@keyframes loop {
+    0% {
+        transform: translate(0, 0);
+    }
+    15% {
+        transform: translate(0, 0);
+    }
+    20% {
+        transform: translate(-1460px, 0);
+    }
+    35% {
+        transform: translate(-1460px, 0);
+    }
+    40% {
+        transform: translate(-2920px, 0);
+    }
+    55% {
+        transform: translate(-2920px, 0);
+    }
+    60% {
+        transform: translate(-4380px, 0);
+    }
+    75% {
+        transform: translate(-4380px, 0);
+    }
+    80% {
+        transform: translate(-5840px, 0);
+    }
+    95% {
+        transform: translate(-5840px, 0);
+    }
+}
+.forth {
+    position: relative;
+    height: 80px;
+    top: 20px;
+}
+.forth-1 {
+    position: relative;
+    left: 289px;
+    font-size: 15px; 
+}
+.forth hr {
+    position: absolute;
+    top: 50px;
+     width: 1300px;
+}
+.forth-1>span {
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+    background-color: rgb(179, 166, 166);
+}
+/*第四部分*/
+.fifth {
+    position: relative;
+    width: 1394px;
+    height: 356px;
+}
+.fifth-children {
+    position: absolute;
+    width: 450px;
+    height: 356px;
+    top: 0;
+    left: 286px;
+}
+.fifth-son1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #90000a;
+    border-radius: 50%;
+    z-index: -2;
+}
+.top1 {
+    position: absolute;
+    left: 23px;
+    top: 14px;
+    line-height: 10px;
+    font-size: 28px;
+    vertical-align: middle;
+}
+.under1 {
+    position: absolute;
+    left: 22px;
+    top: 35px;
+    line-height: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.fifth-son1-1 {
+    position: absolute;
+    top: 14px;
+    left: 69px;
+    width: 350px;
+    height: 37px;
+    font-size: 7px;
+}
+.fifth-son2 {
+    position: absolute;
+    top: 66px;
+    left: 50px;
+    width: 321px;
+    height: 195px;
+}
+.fifth-son2 img {
+    width: 309px;
+    height: 201px;
+}
+.fifth-son2>h1 {
+    position: absolute;
+    top: 205px;
+    left: 21px;
+    width: 262px;
+    height: 59px;
+    font-size: 14px;
+}
+.fifth-son2 a:hover {
+    color: red;
+}
+.fifth-son3 {
+    position: absolute;
+    width: 450px;
+    height: 356px;
+    top: 0;
+    left: 367px;
+}
+.fifth-son3-1 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #90000a;
+    border-radius: 50%;
+    z-index: -2;
+}
+.top2 {
+    position: relative;
+    left: 22px;
+    top: 13px;
+    line-height: 10px;
+    font-size: 28px;
+    color: black;
+    background-color:#90000a;
+}
+.under2 {
+    position: absolute;
+    left: 22px;
+    top: 35px;
+    line-height: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.fifth-son4 {
+    position: absolute;
+    top: 12px;
+    left: 69px;
+    width: 350px;
+    height: 37px;
+    font-size: 7px;
+}
+.fifth-son4-1>h1 {
+    position: absolute;
+    top: 205px;
+    left: 21px;
+    width: 262px;
+    height: 59px;
+    font-size: 14px;
+}
+.fifth-son4-1 img {
+    width: 309px;
+    height: 201px;
+}
+.fifth-son4-1 a:hover {
+    color: red;
+}
+.fifth-son4-1 {
+    position: absolute;
+    top: 66px;
+    left: 74px;
+    width: 321px;
+    height: 195px;
+}
+.link-children {
+    position: absolute;
+    top: 3px;
+    left: 804px;
+    height: 324px;
+    width: 517px;
+    line-height: 37px;
+}
+.link-children a {
+    color: black;
+}
+.link-children a:hover {
+    display: list-item;
+    color: red;
+}
+.link-children>span {
+    position: absolute;
+    left: 700px;
+}
+
+.p {
+    position: absolute;
+    top: 0;
+    left: 407px;
+    width: 51px;
+}
+/*第五部分*/
+.sixth {
+    position: relative;
+    height: 80px;
+    top: 368px;
+}
+.sixth-s {
+    position: absolute;
+    left: 289px;
+    font-size: 15px;
+}
+.sixth-s>span {
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+    background-color: rgb(179, 166, 166);
+}
+.sixth hr {
+    position: absolute;
+    top: 50px;
+     width: 1300px;
+}
+.sixth-son {
+    position: relative;
+    width: 1394px;
+    height: 356px;
+    top: 275px;
+}
+.sixth-son1 {
+    position: absolute;
+    width: 450px;
+    height: 191px;
+    top: 79px;
+    left: 272px;
+}
+.sixth-top1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 42px;
+    font-size: 9px;
+}
+.sixth-under1 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 245px;
+    height: 128px;
+}
+.sixth-son a:hover {
+    color: red;
+}
+.sixth-son2 {
+    position: absolute;
+    width: 450px;
+    height: 191px;
+    top: 79px;
+    left: 636px;
+}
+.sixth-top2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 360px;
+    height: 42px;
+    font-size: 9px;
+}
+.sixth-under2 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 245px;
+    height: 128px;
+}
+.sixth-son3 {
+    position: absolute;
+    width: 351px;
+    height: 197px;
+    top: 79px;
+    left: 994px;
+}
+.sixth-top3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 303px;
+    height: 42px;
+    font-size: 9px;
+}
+.sixth-under3 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 245px;
+    height: 128px;
+}
+.sixth-son4 {
+    position: absolute;
+    width: 272px;
+    height: 197px;
+    top: 79px;
+    left: 1305px;        
+}
+.sixth-top4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 42px;
+    font-size: 9px;
+}
+.sixth-under4 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 245px;
+    height: 128px;
+}
+/*第六部分*/
+.seventh {
+    position: relative;
+    width: 1395px;
+    height: 513px;
+    top: 202px;
+}
+.seventh-s {
+    position: absolute;
+    top: 0;
+    left: 272px;
+    height: 50px;
+    width: 673px;
+}
+.seventh-s1>p {
+    position: absolute;
+    left: 0;
+    width: 111px;
+    font-size: 27px;
+    top: 13px;
+}
+.seventh-s1>span {
+    position: absolute;
+    left: 598px;
+    top: 19px; 
+    background-color: rgb(179, 166, 166) 
+}
+.seventh-s1 hr {
+    position: absolute;
+    left: 0;
+    top: 54px;
+    width: 650px;
+}
+.seventh-top1 {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 452px;
+    height: 213px;
+    line-height: 40px;
+}
+.seventh-under1 {
+    position: absolute;
+    top: 0px;
+    left: 569px;
+    width: 92px;
+    height: 213px;
+    line-height: 40px;
+}
+.seventh-top1 a:hover {
+    color: red;
+}
+.seventh-top2 {
+    position: absolute;
+    top: 40px;
+    left: 987px;
+    width: 600px;
+    height: 241px;
+}
+.seventh-top2>p {
+    position: absolute;
+    line-height: 52px;
+    width: 250px;
+    height: 49px;
+}
+.seventh-top2 a {
+    color: whitesmoke;
+}
+.p-1 {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    background-color: rgb(27, 100, 76);
+    color: whitesmoke;
+    text-align: center;
+    width: 184px;
+    height: 45px;
+    font-size: 20px;
+}
+.p-2 {
+    position: relative;
+    top: 0;
+    left: 326px;
+    background-color: #2aebaa;
+    color: whitesmoke;
+    text-align: center;
+    width: 210px;
+    height: 45px;
+    font-size: 20px;
+}
+.p-3 {
+    top: 90px;
+    left: 35px;
+    background-color: #825151;
+    color: whitesmoke;
+    text-align: center;
+    width: 184px;
+    height: 45px;
+    font-size: 20px;
+}
+.p-4 {
+    position: absolute;
+    top: 90px;
+    left: 326px;
+    background-color: #a0ac48;
+    color: whitesmoke;
+    text-align: center;
+    width: 184px;
+    height: 45px;
+    font-size: 20px;
+}
+.p-5 {
+    position: absolute;
+    top: 180px;
+    left: 35px;
+    background-color: #9b0707;
+    color: whitesmoke;
+    text-align: center;
+    width: 184px;
+    height: 45px;
+    font-size: 20px;
+}
+.p-6 {
+    position: absolute;
+    top: 180px;
+    left: 326px;
+    background-color: #00014d;
+    color: whitesmoke;
+    text-align: center;
+    width: 184px;
+    height: 45px;
+    font-size: 20px;
+}
+.eighth {
+    position: relative;
+    top: 20px;
+    left: 235px;
+    width: 1396px;
+    height: 600px;
+    background-color: rgba(247, 246, 239, 0.719);
+}
+.eighth-e {
+    position: absolute;
+    left: 100px;
+    width: 1200px;
+    height: 71px; 
+}
+.eighth-e li {
+    float: left;
+    height: auto;
+    width: 132px;
+    overflow: hidden;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.cos-1 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdum.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-2 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-2.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-3 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-3.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-4 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-4.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-5 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-5.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-6 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-6.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-7 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-7.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-8 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-8.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+
+.cos-9 {
+    width: 53px;
+    height: 52px;
+    background: url(../image/cdu.cos-9.jpg) no-repeat;
+    background-size: 50px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin-left: 35px;
+}
+.tenth {
+    position: absolute;
+    top: 71px;
+    left: 100px;
+    width: 729px;
+    height: 88px;
+}
+.tenth-t p {
+    position: absolute;
+    top: 37px;
+    font-size: 40px;
+}
+.tenth-t p hr {
+    width: 711px;
+    position: absolute;
+    top: 83px;
+}
+.tenth-top1 {
+    position: absolute;
+    top: 89px;
+    left: 1px;
+    width: 710px;
+    height: 179px;
+}
+.tenth-top1 li {
+    float: left;
+    line-height: 65px;
+    width: 176px;
+}
+.tenth-top1 li a:hover {
+    color: red;
+}
+.tenth-top2 {
+    position: absolute;
+    left: 823px;
+    top: 113px;
+    width: 449px;
+    height: 241px;
+}
+.tenth-top2-1 {
+    position: absolute;
+    left: 30px;
+    top: 37px;
+    text-align: center;
+}
+.tenth-top2-2 {
+    position: absolute;
+    left: 237px;
+    top: 37px;
+    text-align: center;
+}
+.eleventh {
+    position: absolute;
+    top: 338px;
+    left: 100px;
+    width: 1200px;
+    height: 240px;
+    background-color: #d6d6d6;
+}
+.eleventh dl {
+    float: left;
+    width: 144px;
+}
+.eleventh dl dt {
+    font-size: 20px;
+    font-weight: 400;
+}
+.eleventh dd {
+    font-size: 12px;
+    line-height: 30px;
+}
+.eleventh dd a:hover {
+    color: red;
+}
+.finally {
+    position: relative;
+    top: 601px;
+    left: -240px;
+    width: 1878px;
+    height: 206px;
+    background: linear-gradient(rgb(180, 21, 21), rgb(90, 33, 95));
+}
+.finally-img {
+    position: absolute;
+    left: 191px;
+    top: 37px;
+}
+.over-1 {
+    position: absolute;
+    left: 330px;
+    top: 136px;
+    height: 22px;
+    width: auto;
+}
+.over-2 {
+    position: absolute;
+    left: 330px;
+    top: 171px;
+    height: 22px;
+     width: auto;
+}
